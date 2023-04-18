@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "reddit_etl_abd"
-version = "0.0.4"
+version = "0.0.5"
 authors = [
   { name="Abdullah Durrani" }
 ]
@@ -17,4 +17,4 @@ classifiers = [
 ]
 
 [tool.setuptools]
-packages = ["extract", "transform", "load", "includes"]
+packages = ["reddit_etl_abd"]
